@@ -1,0 +1,171 @@
+ [
+    {
+        "id":1,
+        "itemname":"Testingitem1",
+        "itembrand":"Bottle",
+        "price": "$15",
+        "color":"blue",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/bottle.jpg"
+
+    },
+    {
+        "itemname":"Testingitem2",
+        "id":2,
+        "itembrand":"BOX1",
+        "price": "$25",
+        "color":"blue",
+        "size": ["XS","XL","LG","MD","XXL"],
+        "img":"./img/box1.jpg"
+    },
+    {
+        "itemname":"Testingitem3",
+        "id":3,
+        "itembrand":"Tesla",
+        "price": "$35",
+        "color":"blue",
+        "size": ["XS","XL","SM","LG","XXL"],
+        "img":"./img/camera.jpg"
+    },
+    {
+        "itemname":"Testingitem4",
+        "itembrand":"Shirt",
+        "id":4,
+        "price": "$45",
+        "color":"blue",
+        "size": ["XS","LG","MD","XXL"],
+        "img": "./img/download.jpg"
+    },
+    {
+        "itemname":"Testingitem5",
+        "id":5,
+        "itembrand":"headphone",
+        "price": "$55",
+        "color":"blue",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/headphone.jpg"
+    },
+    {
+        "itemname":"Testingitem6",
+        "id":6,
+        "itembrand":"Shirt",
+        "price": "$25",
+        "color":"blue",
+        "size": ["XS","XL","SM","LG","MD"],
+        "img": "./img/leaves.jpg"
+    },
+    {
+        "itemname":"Testingitem7",
+        "itembrand":"Shirt",
+        "price": "$15",
+        "color":"blue",
+        "size": ["SM","LG","MD","XXL"],
+        "img": "./img/new-product1.png"
+    },
+    {
+        "itemname":"Testingitem8",
+        "itembrand":"phone",
+        "price": "$35",
+        "color":"blue",
+        "size": ["XS","SM","LG","MD","XXL"],
+        "img": "./img/phone.jpg"
+    },
+    {
+        "itemname":"Testingitem9",
+        "itembrand":"Shirt",
+        "price": "$45",
+        "color":"gray",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/vitamins.jpg"
+    },
+    {
+        "itemname":"Testingitem10",
+        "itembrand":"Shirt",
+        "price": "$55",
+        "color":"gold",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/watch.jpg"
+    },
+    {
+        "id":1,
+        "itemname":"Testingitem11",
+        "itembrand":"Bottle",
+        "price": "$15",
+        "color":"black",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/bottle.jpg"
+
+    },
+    {
+        "itemname":"Testingitem12",
+        "itembrand":"BOX1",
+        "price": "$25",
+        "color":"brown",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img":"./img/box1.jpg"
+    },
+    {
+        "itemname":"Testingitem13",
+        "itembrand":"Tesla",
+        "price": "$35",
+        "color":"black",
+        "size": ["XS","XL","SM","XXL"],
+        "img":"./img/camera.jpg"
+    },
+    {
+        "itemname":"Testingitem14",
+        "itembrand":"Shirt",
+        "price": "$45",
+        "color":"brown",
+        "size": ["XS","XL","SM","LG"],
+        "img": "./img/download.jpg"
+    },
+    {
+        "itemname":"Testingitem15",
+        "itembrand":"headphone",
+        "price": "$55",
+        "color":"gray",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/headphone.jpg"
+    },
+    {
+        "itemname":"Testingitem16",
+        "itembrand":"Shirt",
+        "price": "$25",
+        "color":"gold",
+        "size": ["SM","LG","MD","XXL"],
+        "img": "./img/leaves.jpg"
+    },
+    {
+        "itemname":"Testingitem17",
+        "itembrand":"Shirt",
+        "price": "$25",
+        "color":"black",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/new-product1.png"
+    },
+    {
+        "itemname":"Testingitem18",
+        "itembrand":"phone",
+        "price": "$35",
+        "color":"brown",
+        "size": ["XS","LG","MD","XXL"],
+        "img": "./img/phone.jpg"
+    },
+    {
+        "itemname":"Testingitem19",
+        "itembrand":"Shirt",
+        "price": "$35",
+        "color":"gray",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/vitamins.jpg"
+    },
+    {
+        "itemname":"Testingitem20",
+        "itembrand":"Shirt",
+        "price": "$15",
+        "color":"gold",
+        "size": ["XS","XL","SM","LG","MD","XXL"],
+        "img": "./img/watch.jpg"
+    }
+]

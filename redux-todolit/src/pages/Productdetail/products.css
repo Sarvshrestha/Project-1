@@ -1,0 +1,201 @@
+.info{
+    display: flex;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+/* .detail{
+    display: ;
+} */
+
+.itemBrand{
+    margin: 2px;
+}
+
+.item-detail{
+    margin-left: 5px;
+}
+
+.contant{
+    display: inline-block;
+}
+
+.box{
+    display: inline-block;
+    margin:10px;
+    box-sizing: content-box;
+    border:1px solid transparent;
+    box-shadow: 0px 0px 2px 0px gainsboro;
+    
+}
+
+.pagination-container {
+    display: flex;
+    list-style-type: none;
+  
+    .pagination-item {
+      padding: 0 12px;
+      height: 32px;
+      text-align: center;
+      margin: auto 4px;
+      color: rgba(0, 0, 0, 0.87);
+      display: flex;
+      box-sizing: border-box;
+      align-items: center;
+      letter-spacing: 0.01071em;
+      border-radius: 16px;
+      line-height: 1.43;
+      font-size: 13px;
+      min-width: 32px;
+  
+      &.dots:hover {
+        background-color: transparent;
+        cursor: default;
+      }
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+        cursor: pointer;
+      }
+  
+      &.selected {
+        background-color: rgba(0, 0, 0, 0.08);
+      }
+  
+      .arrow {
+        &::before {
+          position: relative;
+          /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+          content: '';
+          /* By using an em scale, the arrows will size with the font */
+          display: inline-block;
+          width: 0.4em;
+          height: 0.4em;
+          border-right: 0.12em solid rgba(0, 0, 0, 0.87);
+          border-top: 0.12em solid rgba(0, 0, 0, 0.87);
+        }
+  
+        &.left {
+          transform: rotate(-135deg) translate(-50%);
+        }
+  
+        &.right {
+          transform: rotate(45deg);
+        }
+      }
+  
+      &.disabled {
+        pointer-events: none;
+  
+        .arrow::before {
+          border-right: 0.12em solid rgba(0, 0, 0, 0.43);
+          border-top: 0.12em solid rgba(0, 0, 0, 0.43);
+        }
+  
+        &:hover {
+          background-color: transparent;
+          cursor: default;
+        }
+      }
+    }
+  }
+
+  .filterheadclass{
+    display:block;
+  }
+
+  .filter-container{
+    display: inline;
+   text-align: left;
+   margin-left: 40px;
+  
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-item {
+    list-style: none;
+    margin: 0 5px;
+    display: inline-block;
+  }
+  
+  .page-link {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .filter-dropdown{
+    /* border: 0.5px solid gray;
+    box-shadow: 0px 0px 10px 3px transparent;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 300px; */
+
+    padding: 30px 30px 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid #e7e6e6;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    width: 70%;
+    margin: auto;
+    display: flex;
+  }
+
+  .applyFilter{
+    height: 40px;
+    width: 100px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 38px;
+    display: block;
+  }
+
+  .slider {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Styles for the slider thumb */
+.slider .thumb {
+    height: 40px;
+    width: 15px;
+    /* border-radius: 50%; */
+    background-color: #f7f9fb;
+    cursor: grab;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the slider active state */
+.slider .thumb.active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1;
+}
